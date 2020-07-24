@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/* Footer */
+.page-footer {
+    margin-top: 10rem;
+    background-color: #1f2327;
+  }
+  
+  .footer-copyright {
+    background-color: #1b1b1b;
+    color: white;
+  }
+  
+  .logo-link {
+    font-family: "Permanent Marker";
+    margin-left: 5px;
+    color: orange;
+  }

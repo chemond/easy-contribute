@@ -1,0 +1,42 @@
+
+.doc-container {
+    box-shadow: 0 0 2px black;
+    padding: 0;
+}
+
+.nav {
+    background-color: #444;
+
+    width: 100%;
+    border-right: 2px solid #333;
+
+}
+
+.nav-item {
+    width: 100%;
+    border-bottom: 1px solid #777;
+    
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
+
+.docs {
+    background-color: #666;
+    width: 100%;
+    padding: 5%;
+    box-shadow: inset 1px 0 3px #333;
+}
+
+.code {
+    background-color: #222;
+    width: 100%;
+    padding: 5%;
+    /* border-left: 1px solid #000; */
+    box-shadow: inset 1px 0 3px #111;
+}
