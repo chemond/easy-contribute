@@ -17,16 +17,20 @@
 
 <body>
     <header class="container text-center">
-        <label class="switch">
-            <input type="checkbox" onclick="toggleDarkMode()">
-            <span class="slider round"></span>
-        </label>
+        <div class="container-fluid d-inline-flex justify-content-center align-items-center">
+            <div class="px-3 dark-static">Dark Mode</div>
+            <label class="switch">
+                <input type="checkbox" onclick="toggleDarkMode()" />
+                <span class="slider round"></span>
+            </label>
+            <div class="px-3 light-static">Light Mode</div>
+        </div>
 
 
         <h1>Docs</h1>
         <p>For all your documentation needs!
         </p>
-        
+
     </header>
 
     <container class="container-fluid d-flex doc-container">
@@ -55,12 +59,18 @@
         </column>
         <column class="col-fluid flex-fill docs">
             <h2 id="intro">Introduction</h2>
-            <p>You've made it to easy-contribute so I'm assuming you have learned the basics of HTML and CSS, maybe even a little JavaScript. You have started learning the basics of git hub but you need some real scenario to put your skills to action in order to fully understand it.</p>
+            <p>You've made it to easy-contribute so I'm assuming you have learned the basics of HTML and CSS, maybe even
+                a little JavaScript. You have started learning the basics of git hub but you need some real scenario to
+                put your skills to action in order to fully understand it.</p>
             <p>In this documentation you will walk through the steps to contribute to an open source project.</p>
             <h2 id="copyrepo">Copying the Repository</h2>
-            <p>The first thing you need to do is to get a copy of the source code off of GitHub and on to you computer.</p>
-            <p>Let's go to the <a href="https://github.com/chemond/easy-contribute" target="_blank" rel="noopener noreferrer">GitHub repository for easy-contribute</a></p>
-            <p>From there you want to click the Code button and copy the clone url which should look something like this <code>https://github.com/chemond/easy-contribute.git</code> you can go to your terminal and enter in the following command</p>
+            <p>The first thing you need to do is to get a copy of the source code off of GitHub and on to you computer.
+            </p>
+            <p>Let's go to the <a href="https://github.com/chemond/easy-contribute" target="_blank"
+                    rel="noopener noreferrer">GitHub repository for easy-contribute</a></p>
+            <p>From there you want to click the Code button and copy the clone url which should look something like this
+                <code>https://github.com/chemond/easy-contribute.git</code> you can go to your terminal and enter in the
+                following command</p>
             <code>git clone https://github.com/chemond/easy-contribute.git</code>
         </column>
         <column class="col-fluid flex-fill code">
@@ -74,12 +84,12 @@
             <a href="/about.html" class="flex-fill">About</a>
         </div>
         <div class="footer-copyright text-center py-3">
-          <span>© 2020 Copyright</span>
-    
-          <a class="logo-link" href="https://colbyhemond.me/" target="_blank" rel="noopener">
-              colbyhemond.me</a>
+            <span>© 2020 Copyright</span>
+
+            <a class="logo-link" href="https://colbyhemond.me/" target="_blank" rel="noopener">
+                colbyhemond.me</a>
         </div>
-      </footer>
+    </footer>
 
 
     <!-- Optional JavaScript -->
