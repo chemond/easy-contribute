@@ -42,6 +42,10 @@
     box-shadow: inset 1px 0 3px #111;
 }
 
+code {
+    color: orange;
+}
+
 /* Dark mode */
 .dark-mode .nav {
     background-color: #444;
