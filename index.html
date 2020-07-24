@@ -17,11 +17,14 @@
 
 <body>
     <header class="container text-center">
-        <label class="switch">
-            <input type="checkbox" onclick="toggleDarkMode()">
-            <span class="slider round"></span>
-        </label>
-
+        <div class="container-fluid d-inline-flex justify-content-center align-items-center">
+            <div class="px-3 dark-static">Dark Mode</div>
+            <label class="switch">
+                <input type="checkbox" onclick="toggleDarkMode()" />
+                <span class="slider round"></span>
+            </label>
+            <div class="px-3 light-static">Light Mode</div>
+        </div>
 
         <h1>Easy Contribution</h1>
         <p>This is a place to make your first contribution to Git Hub without having to worry about messing anything up!
@@ -67,10 +70,10 @@
             </div>
         </card>
         <!--This is the end of [your name]'s Card-->
-        
+
     </container>
 
-    
+
     <footer class="page-footer">
         <div class="container d-flex flex-column justify-content-center m-auto py-3">
             <a href="/index.html" class="flex-fill">Home</a>
