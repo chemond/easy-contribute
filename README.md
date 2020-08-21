@@ -5,12 +5,30 @@ A repository for people learning Git to make their first contribution and learn 
 ```
 git status
 ```
-`git add .`
-`git commit -m"commit messgae"`
-`git push origin master`
-`git pull`
-`git init`
-`git config --global user.email`
-`git log --oneline`
-`git branch`
-`git remote`
+```
+git add .
+```
+```
+git commit -m"commit message"
+```
+```
+git push origin master
+```
+```
+git pull
+```
+```
+git init
+```
+```
+git config --global user.email
+```
+```
+git log --oneline
+```
+```
+git branch
+```
+```
+git remote
+```
